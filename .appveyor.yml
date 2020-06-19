@@ -65,5 +65,5 @@ build_script:
     - 7z a c:\USDgen\usd.7z c:\USDgen\build
 
 artifacts:
-    - path: usd.7z
+    - path: c:\USDgen\usd.7z
       name: Package
