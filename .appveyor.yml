@@ -27,8 +27,7 @@ clone_folder: c:\projects\USD
 
 branches:
     only:
-        - dev
-        - master
+        - build
 
 platform:
     - x64
