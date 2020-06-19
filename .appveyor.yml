@@ -63,7 +63,10 @@ build_script:
     - cd c:\USDgen\build
     - dir
     - 7z a c:\USDgen\usd.7z c:\USDgen\build
+    - 7z a c:\USDgen\usd_install.7z c:\USDinst
 
 artifacts:
     - path: c:\USDgen\usd.7z
       name: Package
+    - path: c:\USDgen\usd_install.7z
+      name: Package_install
