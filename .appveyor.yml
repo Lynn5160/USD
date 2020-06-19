@@ -59,7 +59,7 @@ before_build:
 build_script:
 
     - cd c:\projects\USD
-    - python build_scripts/build_usd.py -vvv --no-tests --build C:/USDgen/build --src C:/USDgen/src c:/USDinst
+    - python build_scripts/build_usd.py -vvv --no-tests --no-examples --build C:/USDgen/build --src C:/USDgen/src c:/USDinst
     - cd c:\USDgen\build
     - dir
     - 7z a c:\USDgen\usd.7z c:\USDgen\build
