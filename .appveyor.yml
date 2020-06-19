@@ -62,8 +62,8 @@ build_script:
     - python build_scripts/build_usd.py -vvv --build C:/USDgen/build --src C:/USDgen/src c:/USDinst
     - cd c:\USDgen\build
     - dir
-    - tar -cvf usd.tar c:/USDgen/build/
+    - 7z a usd.7z c:\USDgen\build
 
 artifacts:
-    - path: usd*.tar
+    - path: usd*.7z
       name: Package
