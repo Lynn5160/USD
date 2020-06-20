@@ -65,10 +65,10 @@ build_script:
 #    - 7z a c:\USDgen\usd.7z c:\USDgen\build
     - cd c:\projects\USD
     - 7z a usd_install.7z c:\USDinst
-    - 7z a usd_build.7z C:\USDgen\build
+    - 7z a usd_build_boost.7z C:\USDgen\build\boost
 
 artifacts:
-    - path: usd_build.7z
-      name: Package_build
+    - path: usd_build_boost.7z
+      name: Package_build_boost
     - path: usd_install.7z
       name: Package_install
